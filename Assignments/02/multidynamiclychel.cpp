@@ -79,7 +79,7 @@ int main() {
             auto start = id * chunkSize;
             auto end = std::min(data.size(), start + chunkSize);
 
-            size_t count = 5000;
+            size_t count = 5;
              
             Numbers numbers;
             while(data.getNext(count, numbers))
